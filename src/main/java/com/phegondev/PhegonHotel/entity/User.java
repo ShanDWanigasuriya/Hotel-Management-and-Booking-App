@@ -1,5 +1,4 @@
 package com.phegondev.PhegonHotel.entity;
-
 import jakarta.persistence.*;
 import jakarta.validation.constraints.NotBlank;
 import lombok.Data;
@@ -32,7 +31,10 @@ public class User implements UserDetails {
 
     @NotBlank(message = "Password is required")
     private String password;
+
     private String role;
+
+    @OneToMany(mappedBy = "user", fetch = FetchType.LAZY, cascade = CascadeType.ALL)
     private List<Booking> bookings = new ArrayList<>();
 
     @Override
