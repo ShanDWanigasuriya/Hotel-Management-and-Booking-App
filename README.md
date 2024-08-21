@@ -1,7 +1,13 @@
 # Hotel Management and Booking App
 
 ## Overview
-This project is a full-fledged hotel and booking application developed using Java and a range of modern technologies. It features a comprehensive system for managing room and booking facilities for both administrators and users.
+This project is a comprehensive hotel and booking application developed using Java and a suite of modern technologies. The application is designed to efficiently manage hotel reservations and room bookings. It features a robust Java-based backend, utilizing Spring Boot for rapid development and deployment, coupled with a dynamic frontend built with React JS.
+
+### Key Points:
+- **Java-Based Backend**: The backend is developed using Java, leveraging Spring Boot to streamline development and Spring Security for robust authentication and authorization. This ensures secure and efficient management of application functionalities.
+- **Database Management**: MySQL is employed as the relational database for handling data related to rooms, bookings, and user information. The application utilizes JPA and Hibernate for ORM (Object-Relational Mapping), facilitating smooth database interactions.
+- **Modern Frontend**: The frontend is constructed using React JS, providing a responsive and interactive user interface. This ensures a seamless and engaging experience for users interacting with the application.
+- **Full-Stack Solution**: The project integrates backend and frontend components to deliver a cohesive and comprehensive solution. It caters to both administrators, who manage rooms and bookings, and end-users, who make and manage reservations.
 
 ## Key Features
 - **Admin Capabilities**:
@@ -16,30 +22,16 @@ This project is a full-fledged hotel and booking application developed using Jav
 
 ## Technologies Used
 - **Backend**:
-  - **Java**: Core language used for backend development.
-  - **Spring Boot**: Framework for building the backend RESTful services.
-  - **Spring Security**: Security framework for handling authentication and authorization.
-  - **Maven**: Dependency management and build automation tool.
-  - **Lombok**: Reduces boilerplate code by generating getter, setter, and other methods at compile-time.
-  - **MySQL**: Relational database used to store application data.
-  - **JWT (JSON Web Token)**: For securing RESTful endpoints.
-  
+  - **Java**: Core language for backend development.
+  - **Spring Boot**: Framework for creating RESTful services.
+  - **Spring Security**: For handling authentication and authorization.
+  - **Maven**: For dependency management and build automation.
+  - **Lombok**: To reduce boilerplate code by generating common methods.
+  - **MySQL**: Relational database for storing application data.
+  - **JWT (JSON Web Token)**: For securing API endpoints.
+
 - **Frontend**:
   - **React JS**: JavaScript library for building the user interface.
-  
+
 - **Tools and IDE**:
-  - **IntelliJ IDEA**: Integrated Development Environment used for Java development.
-
-## Setup Instructions
-
-### Prerequisites
-- **Java 11 or higher** must be installed.
-- **Node.js** and **npm** should be installed to run the React frontend.
-- **MySQL** should be installed and running.
-
-### Installation
-
-1. **Clone the Repository**:
-   ```bash
-   git clone https://github.com/yourusername/hotel-booking-app.git
-   cd hotel-booking-app
+  - **IntelliJ IDEA**: IDE used for Java development.
