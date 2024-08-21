@@ -5,7 +5,42 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="838d4c70-cff5-4807-9867-e07d64f2a080" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/PhegonHotel-Backend/src/main/java/com/phegondev/PhegonHotel/service/AwsS3Service.java" beforeDir="false" afterPath="$PROJECT_DIR$/PhegonHotel-Backend/src/main/java/com/phegondev/PhegonHotel/service/AwsS3Service.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PhegonHotel-Backend/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PhegonHotel-Backend/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PhegonHotel-Backend/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PhegonHotel-Backend/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PhegonHotel-Backend/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PhegonHotel-Backend/src/main/java/com/phegondev/PhegonHotel/PhegonHotelApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PhegonHotel-Backend/src/main/java/com/phegondev/PhegonHotel/controller/AuthController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PhegonHotel-Backend/src/main/java/com/phegondev/PhegonHotel/controller/BookingController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PhegonHotel-Backend/src/main/java/com/phegondev/PhegonHotel/controller/RoomController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PhegonHotel-Backend/src/main/java/com/phegondev/PhegonHotel/controller/UserController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PhegonHotel-Backend/src/main/java/com/phegondev/PhegonHotel/dto/BookingDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PhegonHotel-Backend/src/main/java/com/phegondev/PhegonHotel/dto/LoginRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PhegonHotel-Backend/src/main/java/com/phegondev/PhegonHotel/dto/Response.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PhegonHotel-Backend/src/main/java/com/phegondev/PhegonHotel/dto/RoomDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PhegonHotel-Backend/src/main/java/com/phegondev/PhegonHotel/dto/UserDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PhegonHotel-Backend/src/main/java/com/phegondev/PhegonHotel/entity/Booking.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PhegonHotel-Backend/src/main/java/com/phegondev/PhegonHotel/entity/Room.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PhegonHotel-Backend/src/main/java/com/phegondev/PhegonHotel/entity/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PhegonHotel-Backend/src/main/java/com/phegondev/PhegonHotel/exception/OurException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PhegonHotel-Backend/src/main/java/com/phegondev/PhegonHotel/repo/BookingRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PhegonHotel-Backend/src/main/java/com/phegondev/PhegonHotel/repo/RoomRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PhegonHotel-Backend/src/main/java/com/phegondev/PhegonHotel/repo/UserRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PhegonHotel-Backend/src/main/java/com/phegondev/PhegonHotel/security/CorsConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PhegonHotel-Backend/src/main/java/com/phegondev/PhegonHotel/security/JWTAuthFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PhegonHotel-Backend/src/main/java/com/phegondev/PhegonHotel/security/SecurityConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PhegonHotel-Backend/src/main/java/com/phegondev/PhegonHotel/service/AwsS3Service.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PhegonHotel-Backend/src/main/java/com/phegondev/PhegonHotel/service/CustomUserDetailsService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PhegonHotel-Backend/src/main/java/com/phegondev/PhegonHotel/service/impl/BookingService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PhegonHotel-Backend/src/main/java/com/phegondev/PhegonHotel/service/impl/RoomService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PhegonHotel-Backend/src/main/java/com/phegondev/PhegonHotel/service/impl/UserService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PhegonHotel-Backend/src/main/java/com/phegondev/PhegonHotel/service/interfac/IBookingService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PhegonHotel-Backend/src/main/java/com/phegondev/PhegonHotel/service/interfac/IRoomService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PhegonHotel-Backend/src/main/java/com/phegondev/PhegonHotel/service/interfac/IUserService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PhegonHotel-Backend/src/main/java/com/phegondev/PhegonHotel/utils/JWTUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PhegonHotel-Backend/src/main/java/com/phegondev/PhegonHotel/utils/Utils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PhegonHotel-Backend/src/test/java/com/phegondev/PhegonHotel/PhegonHotelApplicationTests.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,7 +55,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/PhegonHotel-Backend" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
