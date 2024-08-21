@@ -7,7 +7,7 @@ const RoomSearch = ({ handleSearchResult }) => {
   const [startDate, setStartDate] = useState(null);
   const [endDate, setEndDate] = useState(null);
   const [roomType, setRoomType] = useState('');
-  const [roomTypes, setRoomTypes] = useState([]);
+  const [roomTypes, setRoomTypes] = useState(['Standard', 'Double', 'Suite']);
   const [error, setError] = useState('');
 
   useEffect(() => {
